@@ -1,0 +1,166 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@type": "Software",
+            "@title": "AudioMoth-Firmware-SPL",
+            "description": "This repository contains an AudioMoth firmware adaptation to calculate the Sound Pressure Level (SPL). This is based on the 1.3.0 version of AudioMoth firmware (published on AudioMoth-Project and AudioMoth-Firmware-Basic). We include the SPL library (src/spl.c and inc/spl.h) that implement all the functions related to the SPL estimation.",
+            "@id": "https://github.com/pzinemanas/AudioMoth-Firmware-SPL",
+            "license": {
+                "@id": "MIT License"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "pzinemanas"
+            }
+        },
+        {
+            "@type": "Software",
+            "@title": "Training corpus",
+            "description": "These sounds are used to train the data processing algorithm",
+            "@id": "",
+            "license": {
+                "@id": "Private"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Audio",
+            "@title": "Raval May2020",
+            "description": "Collection of ambient urban ourdoors audios from Raval",
+            "@id": "https://freesound.org/people/bitlab_coop/packs/30131/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type":"Dataset",
+            "@title": "Noise Maps ACTION pilot data 2020",
+            "description": "The Noise Maps project focused on deploying a citizen science process in the Barcelona neighborhoods of Sagrada Familia and the Raval to address the challenge of noise pollution. The sound data was generated between May and September 2020.",
+            "@id": "https://doi.org/10.5281/zenodo.4059533",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "NoiseMaps"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": " Broglio, Elisabetta"
+            }
+        },
+        {
+            "@type":"Website",
+            "@title": "Noise Maps Dashboards",
+            "description": "Dashboards created in Grafana to visualze data",
+            "@id": "https://dashboards.dataportal.actionproject.eu/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "González, Esteban"
+            }
+        },
+        {
+            "@type":"Website",
+            "@title": "Instmaps website",
+            "description": "Platform of the Geographical Institute of Catalunya",
+            "@id": "https://www.instamaps.cat/visor.html?businessid=1975f976dff9d780c23a1db01eb37ec3",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type":"Website",
+            "@title": "NoiseMaps website",
+            "@id": "http://www.bitlab.cat/en/projectes/noise-maps/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type":"Presentation",
+            "@title": "Data visualization with Grafana ",
+            "description": "This presentation will help ACTION pilots to create their own dashboards",
+            "@id": "https://doi.org/10.5281/zenodo.4068095",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "González, Esteban"
+            }
+        },
+        {
+            "@type":"Website",
+            "@title": "ArsElectronica",
+            "description": "Results were presented in the ArsElectronica  2020 congress",
+            "@id": "https://ars.electronica.art/keplersgardens/en/sonic-heritage/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        }
+    ]
+}
