@@ -1,0 +1,95 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@type": "On-Site Survey Responses Raw Dataset",
+            "@title": "On-Site Survey Responses Raw Dataset",
+            "description": "In My Backyard: On-Site Survey Responses Raw Dataset",
+            "@id": "https://doi.org/10.5281/zenodo.4081778",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "In My Backyard"
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Robertii, Clara"
+            }
+        },
+        {
+            "@type":"Publication",
+            "@title": "Data Analysis Report",
+            "description":"In My Backyard is a citizen science project promoted by Rio Neiva – Environmental NGO and its partner CEA – Municipal Centre for Environmental Education, both based in Esposende, Portugal. It was funded through the ACTION project. In My Backyard aimed to understand the use of harmful pesticides and fertilizers in home farming and gardening and uncovering sustainable alternatives practiced within domestic backyards. ",
+            "@id": "https://doi.org/10.5281/zenodo.4081770",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Presentation",
+            "@title": "Key Insights",
+            "description": "Project key insights - Presentation at EU Week of Regions and Cities, 8th October, Session Citizens safeguarding the environment - https://europa.eu/regions-and-cities/programme/sessions/1451_en ",
+            "@id": "https://doi.org/10.5281/zenodo.4081606",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "In My Backyard"
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Almeida, Rui Pedro"
+            }
+        },
+        {
+            "@type":"Publication",
+            "@title": "Project reflections and take aways",
+            "description": "Description of project, process, take aways and impact.",
+            "@id": "https://doi.org/10.5281/zenodo.4081585",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Almeida, Rui Pedro"
+            }
+        },
+        {
+            "@type":"Publication",
+            "@title": "Project Final Report",
+            "description": "Project Final Report",
+            "@id": "https://doi.org/10.5281/zenodo.4081597",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Almeida, Rui Pedro"
+            }
+        }
+    ]
+}
