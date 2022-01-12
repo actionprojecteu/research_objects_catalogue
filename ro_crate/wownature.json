@@ -1,0 +1,95 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@type": "Dataset",
+            "@title": "WOW Nature - Bosco di Prasaccon",
+            "description": "Air pollution Device Measurements [\"pm1\",\"pm2p5\",\"pm4\",\"pm10\",\"humidity\"]",
+            "@id": "https://zenodo.org/record/5236644",
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/legalcode"
+            },
+            "publisher": {
+                "@id": "ACTION"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Federico Pinato"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@title": "Wow Nature - Bosco Limite",
+            "description": "Air pollution Device Measurements [\"pm1\",\"pm2p5\",\"pm4\",\"pm10\",\"humidity\"]",
+            "@id": "https://doi.org/10.5281/zenodo.5236621",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "ACTION"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Federico Pinato"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@title": "WOW Nature - Bosco del ponte del Quarelo",
+            "description": "Air pollution Device Measurements [\"pm1\",\"pm2p5\",\"pm4\",\"pm10\",\"humidity\"]",
+            "@id": "https://doi.org/10.5281/zenodo.5236660",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "ACTION"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Federico Pinato"
+            }
+        },
+        {
+            "@type":"Presentation",
+            "@title": "Wow Nature - Final Presentation",
+            "description": "Final presentation of Wow Nature",
+            "@id": "https://doi.org/10.5281/zenodo.5842495",
+            "license": {
+                "@id": "CC_BY-4.0"
+            },
+            "publisher": {
+                "@id": "ACTION"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Federico Pinato"
+            }
+        },
+        {
+            "@type":"Publication",
+            "@title": "WOW Nature - Final Report",
+            "description": "This report summarizes the aims, design, implementation, and results of the WOWNATURE project, a project developed in the context of the first ACTION open call, i.e., a call for citizen science projects related to pollution funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement No 824603. The project aimed to measure the air pollution mitigation capacity of urban and peri-urban forests by using innovative sensors and by engaging citizens throughout the process (i.e., experiment design, safekeeping of sensors, and dissemination of results) with the support of the WOWnature web-based platform, thus strengthening the argument in their favour as an effective policy to tackle air pollution.",
+            "@id": "https://doi.org/10.5281/zenodo.5842501",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "ACTION"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Federico Pinato"
+            }
+        }
+    ]
+}
