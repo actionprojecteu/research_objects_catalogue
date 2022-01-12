@@ -74,7 +74,7 @@
             }
         },
         {
-            "@type": "Publications",
+            "@type": "Publication",
             "@title": "Trafikkforurensing: Trafikkerte områder er mer utsatt for forurensing",
             "description": "This poster has been created by students of the Ullern Upper Secondary School, located in Oslo, Norway.",
             "@id": "https://doi.org/10.5281/zenodo.3737635",
