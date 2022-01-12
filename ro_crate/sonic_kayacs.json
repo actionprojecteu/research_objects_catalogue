@@ -20,7 +20,7 @@
             }
         },
         {
-            "@type": "Website",
+            "@type": "Publication",
             "@title": "The MagPi - Issue 97",
             "description": "Magizine of Rasberry Pi projects. It includes an article about Sonic Kayacs",
             "@id": "https://magpi.raspberrypi.com/issues/97/pdf",
@@ -113,6 +113,7 @@
             "@type": "Website",
             "@title": "Sonic Kayak progress – new pollution sensors for citizen science",
             "@id": "https://fo.am/blog/2020/05/05/sonic-kayak-progress-new-pollution-sensors-for-citizen-science/",
+            "description": "Post that describes the device",
             "license": {
                 "@id": ""
             },
