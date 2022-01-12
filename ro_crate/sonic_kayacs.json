@@ -1,0 +1,147 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@type": "Software",
+            "@title": "Firmware",
+            "description": "Originally based on the Sonic Bikes system, a Raspberry Pi based citizen science project where kayaks become musical & scientific instruments for investigating the marine world.",
+            "@id": "https://github.com/fo-am/sonic-kayaks",
+            "license": {
+                "@id": "GPL-3.0 License"
+            },
+            "publisher": {
+                "@id": "Sonic Kayacs"
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "fo-am"
+            }
+        },
+        {
+            "@type": "Website",
+            "@title": "The MagPi - Issue 97",
+            "description": "Magizine of Rasberry Pi projects. It includes an article about Sonic Kayacs",
+            "@id": "https://magpi.raspberrypi.com/issues/97/pdf",
+            "license": {
+                "@id": "Copyright"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@title": "Sonic Kayaks geolocated air pollution, water turbidity, temperature and hydrophone analysis",
+            "description": "These data sets are the result of five trips using Sonic Kayaks to collect data as part of the ACTION Project. The sampling was carried out in the Penryn river, around Falmouth docks and the Helford estuary. A variety of sensors were used:",
+            "@id": "https://doi.org/10.5281/zenodo.4041588",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Website",
+            "@title": "Observations taken by citizens represented on a Map",
+            "description": "Collection of maps based on the measurements taken by devices",
+            "@id": "https://www.flickr.com/photos/foam/albums/72157715979200366",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Website",
+            "@title": "Environmental Data Sonification",
+            "description": "Sonic Kayaks are rigged with sensors, both underwater (temperature, sound, and turbidity) and above water (air pollution). As the kayaker paddles around, the sensors pick up changes in the environment, and these are played to the kayaker in real time through an on-board speaker.",
+            "@id": "https://fo.am/blog/2020/06/30/sonic-kayak-environmental-data-sonification/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Griffiths, Amber"
+            }
+        },
+        {
+            "@type": "Website",
+            "@title": "Sonic Kayak update - new sensors, sonifications, and visualisations",
+            "description": "This post is to let you know about the changes we've made and new things available within the project, and to call for your feedback and thoughts via the survey at the end.",
+            "@id": "https://fo.am/blog/2020/08/17/sonic-kayak-update-new-sensors-sonifications-and-visualisations/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Griffiths, Dave"
+            }
+        },
+        {
+            "@type": "Website",
+            "@title": "Sonic Kayak progress – new pollution sensors for citizen science",
+            "@id": "https://fo.am/blog/2020/05/05/sonic-kayak-progress-new-pollution-sensors-for-citizen-science/",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Griffiths, Amber"
+            }
+        },
+        {
+            "@type":"Video",
+            "@title": "Sonic Kayaks - citizen science in the marine environment for the ACTION project",
+            "@id": "https://www.youtube.com/watch?v=puLXKj1AVAk",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": "Griffiths, Dave"
+            }
+        }
+    ]
+}
