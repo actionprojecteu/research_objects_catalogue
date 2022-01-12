@@ -43,7 +43,7 @@
             "description": "These data sets are the result of five trips using Sonic Kayaks to collect data as part of the ACTION Project. The sampling was carried out in the Penryn river, around Falmouth docks and the Helford estuary. A variety of sensors were used:",
             "@id": "https://doi.org/10.5281/zenodo.4041588",
             "license": {
-                "@id": ""
+                "@id": "CC-BY-4.0"
             },
             "publisher": {
                 "@id": ""
