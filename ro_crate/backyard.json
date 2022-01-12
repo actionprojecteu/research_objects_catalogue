@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/ro/crate/1.1/context",
     "@graph": [
         {
-            "@type": "On-Site Survey Responses Raw Dataset",
+            "@type": "Dataset",
             "@title": "On-Site Survey Responses Raw Dataset",
             "description": "In My Backyard: On-Site Survey Responses Raw Dataset",
             "@id": "https://doi.org/10.5281/zenodo.4081778",
