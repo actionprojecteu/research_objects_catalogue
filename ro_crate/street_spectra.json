@@ -20,7 +20,7 @@
             "@title": "Tutorial: to identify the spectra of common street lamps",
             "@type": "Publication",
             "description": "This document explains all the steps to obtain the spectra of street lights, how to determine their nature, and also how to contribute with this information to the StreetSpectra citizen science project. The first sections are devoted to introduce the StreetSpectra project, and also the light pollution (LP) problem. We have also included some of the science basics (LP and simple physics of spectra).",
-            "author":[{"@id":"jzamorano"},{"@id":"rgonzalez"}],
+            "author":[{"@id":"#jzamorano"},{"@id":"#rgonzalez"}],
             "license": {
                 "@id": "CC-BY"
             },
@@ -40,7 +40,7 @@
             "@title": "Epicollect5 application",
             "@type": "Software",
             "description": "Application in Epicollect to collect data",
-            "author":{"@id":"rgonzalez"},
+            "author":{"@id":"#rgonzalez"},
             "license": {
                 "@id": "CC-BY-4.0"
             },
@@ -50,7 +50,7 @@
             "@title": "Lifecycle-aware CS template",
             "description": "This document describes the procedure to create a Epicollect and a Zooniverse application",
             "@type": "Publication",
-            "author":{"@id":"egonzalez"},
+            "author":{"@id":"#egonzalez"},
             "license": {
                 "@id": "CC-BY-4.0"
             },
