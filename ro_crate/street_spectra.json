@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@title": "Teaching Material",
+            "@type": "Publication",
+            "description": "This lesson plan is to be used in the classroom of 12 and 13 years old students and aims to educate its users on the topic of light pollution. ",
+            "author": {"@id": "#lgarcia"},
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "@id": "https://doi.org/10.5281/zenodo.4041469"
+        },
+        {
+            "@id":"#lgarcia",
+            "@type":"Person",
+            "name": "Lucía García"
+        },
+        {
+            "@title": "Tutorial: to identify the spectra of common street lamps",
+            "@type": "Publication",
+            "description": "This document explains all the steps to obtain the spectra of street lights, how to determine their nature, and also how to contribute with this information to the StreetSpectra citizen science project. The first sections are devoted to introduce the StreetSpectra project, and also the light pollution (LP) problem. We have also included some of the science basics (LP and simple physics of spectra).",
+            "author":[{"@id":"jzamorano"},{"@id":"rgonzalez"}],
+            "license": {
+                "@id": "CC-BY"
+            },
+            "@id": "https://doi.org/10.5281/zenodo.3696492"
+        },
+        {
+            "@id":"#jzamorano",
+            "@type":"Person",
+            "name": "Jaime Zamorano"
+        },
+        {
+            "@id":"#rgonzalez",
+            "@type":"Person",
+            "name": "Rafael González"
+        },
+        {
+            "@title": "Epicollect5 application",
+            "@type": "Software",
+            "description": "Application in Epicollect to collect data",
+            "author":{"@id":"rgonzalez"},
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "@id": "https://five.epicollect.net/project/action-street-spectra"
+        },
+        {
+            "@title": "Lifecycle-aware CS template",
+            "description": "This document describes the procedure to create a Epicollect and a Zooniverse application",
+            "@type": "Publication",
+            "author":{"@id":"egonzalez"},
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "@id": "https://doi.org/10.5281/zenodo.3885566"
+        },
+        {
+            "@id":"#egonzalez",
+            "@type":"Person",
+            "name": "Esteban González"
+        }
+    ]
+}
