@@ -1,0 +1,149 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@title": "air:bit website",
+            "@type": "Website", 
+            "description": "On this website you can view and download air pollution data collected by students at Upper Secondary Schools throughout the whole of Northern Norway! The students build their own air:bit sensor from its individual components consisting of a GPS module, a dust particle sensor, a temperature and humidity sensor and a memory card reader to store the collected measurements.",
+            "@id": "http://airbit.uit.no/#english",
+            "license": {
+                "@id": ""
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Software",
+            "@title": "ARDUINO_UNO_WITH_NOVASDS011_Firmware",
+            "description": "Firmware of an Arduino board integrated with  a Nova SDS011 sensor for measuring PM2.5 and PM10. The data can be obtained through an SD card.",
+            "@id": "https://doi.org/10.5281/zenodo.3956481",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": ""
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@title": "Lambertseter VGS",
+            "description": "Measurements taken by a DIY sensor designed by the project air:bit (http://airbit.uit.no/#english). Measurements were taken by students of the school Lambertseter VGS, located in the district of Nordstrand in Oslo, Norway.",
+            "@id": "https://doi.org/10.5281/zenodo.3737759",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "Students, Air Pollution and DIY Sensing"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@title": "Lambertseter VGS",
+            "description": "Measurements taken by a DIY sensor (Sensor 2) designed by the project air:bit (http://airbit.uit.no/#english). Measurements were taken by students of the school Lambertseter VGS, located in the district of Nordstrand in Oslo, Norway.",
+            "@id": "https://doi.org/10.5281/zenodo.3737799",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": ""
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": ""
+            }
+        },
+        {
+            "@type": "Publications",
+            "@title": "Trafikkforurensing: Trafikkerte områder er mer utsatt for forurensing",
+            "description": "This poster has been created by students of the Ullern Upper Secondary School, located in Oslo, Norway.",
+            "@id": "https://doi.org/10.5281/zenodo.3737635",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "Students, Air Pollution and DIY Sensing"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Ullern videregående skole"
+            }
+        },
+        {
+            "@type": "Publication",
+            "@title": "Systematiske målinger: Vi ønsker å finne ut om det akustiske miljøet har effekt på luftkvalitetens endringer",
+            "description": "This poster has been created by students of the Ullern Upper Secondary School, located in Oslo, Norway.",
+            "@id": "https://doi.org/10.5281/zenodo.3737608",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "Students, Air Pollution and DIY Sensing"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Ullern videregående skole"
+            }
+        },
+        {
+            "@type":"Presentation",
+            "@title": "Forskningsprosjekt luftforurensning",
+            "description": "Forskningsprosjekt luftforurensning",
+            "@id": "https://doi.org/10.5281/zenodo.3730478",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "Students, Air Pollution and DIY Sensing"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Grossberndt, Sonja"
+            }
+        },
+        {
+            "@type":"Publication",
+            "@title": "Tutorial for air quality projects in high schools",
+            "description": "This deliverable serves as a handbook for air quality projects in high schools. It contains information about the ACTION air quality pilot in high schools, tips and lessons learned as well as material that has been used and created within the high school projects.",
+            "@id": "https://doi.org/10.5281/zenodo.3730457",
+            "license": {
+                "@id": "CC-BY-4.0"
+            },
+            "publisher": {
+                "@id": "Students, Air Pollution and DIY Sensing"
+            },
+            "funder": {
+                "@id": "H2020-824603"
+            },
+            "author": {
+                "@id": "Passani, Antonella"
+            }
+        }
+    ]
+}
