@@ -1,1 +1,40 @@
-{"@context":"https://w3id.org/ro/crate/1.1/context","@graph":[{"@title":"Making a tutorial for water sampling","description":"This document describes how transects from the Dutch Dragonfly Monitoring Scheme are to be selected for sampling and how water samples should be collected and stored","@id":"https://doi.org/10.5281/zenodo.4980410","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Dataset","@title":"Dragonflies and insecticides","description":"This file contains data on measurements of insecticides and dragonfly counts.","@id":"https://doi.org/10.5281/zenodo.5912996","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"D2.4 Dragonflies and insecticides","description":"Description of the comparison of dragonfly abundance, based on citizen science counts, and insecticides detected in the water at these transects, sampled by the citizen scientists. The dragonfly monitoring is part of the Dutch Dragonfly Monitoring Scheme, coordinated by Dutch Butterfly Conservation. This publication includes a description of the development and testing of a method to analyze insecticides in surface waters by the Leiden Centre for Applied Bioscience.","@id":"https://doi.org/10.5281/zenodo.5913005","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}}]}
+{
+    "@context":"https://w3id.org/ro/crate/1.1/context",
+    "@graph":[
+        {
+            "@title":"Making a tutorial for water sampling",
+            "@type": "Publication",
+            "description":"This document describes how transects from the Dutch Dragonfly Monitoring Scheme are to be selected for sampling and how water samples should be collected and stored",
+            "@id":"https://doi.org/10.5281/zenodo.4980410",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#rvangrunsven"}
+        },
+        {
+            "@id":"#rvangrunsven",
+            "@type":"Person",
+            "name": "Roy Van Grunsven"
+        },
+        {
+            "@type":"Dataset",
+            "@title":"Dragonflies and insecticides",
+            "description":"This file contains data on measurements of insecticides and dragonfly counts.",
+            "@id":"https://doi.org/10.5281/zenodo.5912996",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#rvangrunsven"}
+        },
+        {
+            "@title":"D2.4 Dragonflies and insecticides",
+            "@type": "Publication",
+            "description":"Description of the comparison of dragonfly abundance, based on citizen science counts, and insecticides detected in the water at these transects, sampled by the citizen scientists. The dragonfly monitoring is part of the Dutch Dragonfly Monitoring Scheme, coordinated by Dutch Butterfly Conservation. This publication includes a description of the development and testing of a method to analyze insecticides in surface waters by the Leiden Centre for Applied Bioscience.",
+            "@id":"https://doi.org/10.5281/zenodo.5913005",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#rvangrunsven"}
+        }
+    ]
+}
