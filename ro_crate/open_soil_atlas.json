@@ -1,1 +1,61 @@
-{"@context":"https://w3id.org/ro/crate/1.1/context","@graph":[{"@title":"Final Report","description":"Final Report","@id":"https://doi.org/10.5281/zenodo.5900358","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Open Soil Atlas paper","description":"Article to describe the experience of the Open Soil Atlas project","@id":"https://doi.org/10.5281/zenodo.5900365","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Final Review","description":"Presentation of the results of the Open Soil Atlas project","@id":"https://doi.org/10.5281/zenodo.5900374","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Software","@title":"Epicollect5 app","description":"Project of Epicollect to collect data","@id":"https://five.epicollect.net/project/open-soil-atlas-action-2021","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Dataset","@title":"Data","description":"Data collected by Epicollect5","@id":"https://five.epicollect.net/project/open-soil-atlas-action-2021","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}}]}
+{
+    "@context":"https://w3id.org/ro/crate/1.1/context",
+    "@graph":[
+        {
+            "@title":"Final Report",
+            "@type": "Publication",
+            "description":"Final Report",
+            "@id":"https://doi.org/10.5281/zenodo.5900358",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#averones"}
+        },
+        {
+            "@id":"#averones",
+            "@type":"Person",
+            "name": "Anna Verones"
+        },
+        {
+            "@title":"Open Soil Atlas paper",
+            "@type": "Publication",
+            "description":"Article to describe the experience of the Open Soil Atlas project",
+            "@id":"https://doi.org/10.5281/zenodo.5900365",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#averones"}
+        },
+        {
+            "@title":"Final Review",
+            "@type": "Presentation",
+            "description":"Presentation of the results of the Open Soil Atlas project",
+            "@id":"https://doi.org/10.5281/zenodo.5900374",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#averones"}
+        },
+        {
+            "@type":"Software",
+            "@title":"Epicollect5 app",
+            "description":"Project of Epicollect to collect data",
+            "@id":"https://five.epicollect.net/project/open-soil-atlas-action-2021",
+            "license":{"@id":""},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#averones"}
+        },
+        {
+            "@type":"Dataset",
+            "@title":"Data",
+            "@type": "Dataset",
+            "description":"Data collected by Epicollect5",
+            "@id":"https://five.epicollect.net/project/open-soil-atlas-action-2021",
+            "license":{"@id":""},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":""}
+        }
+    ]
+}
