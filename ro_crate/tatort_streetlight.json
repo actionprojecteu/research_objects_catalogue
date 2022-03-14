@@ -1,1 +1,80 @@
-{"@context":"https://w3id.org/ro/crate/1.1/context","@graph":[{"@title":"AuBe Fragebogen für Schüler*innen","description":"This questionnaire was prepared for school pupils who are joining the AuBe project.","@id":"https://doi.org/10.5281/zenodo.5913622","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Stationenlernen: Artenschutz durch umweltverträgliche Beleuchtung","description":"This interactive informational worksheet is for use when visiting Lake Stechlin, an IGB research location where citizens can participate in research for the AuBe project. The AuBe project is a citizen science project that investigates the effect of street light design on the impact of light pollution on insect populations.","@id":"https://doi.org/10.5281/zenodo.5913613","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Bestimmungsschlüssel heimischer Insektenordnungen","description":"Worksheets for the identification of insects native to Germany provided as part of the AuBe project.","@id":"https://doi.org/10.5281/zenodo.5913287","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Aube on Actionbound","description":"Document of the listing of AuBe on Actionbound","@id":"https://doi.org/10.5281/zenodo.5913262","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Software","@title":"Application in ActionBound","description":"Application in ActionBound","@id":"https://en.actionbound.com/bound/Insects","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Artenschutz durch umweltverträgliche Beleuchtung (AuBe)","description":"These slides provide an introduction to the AuBe project, as presented at the Bertha-von-Suttner Gymnasium.","@id":"https://doi.org/10.5281/zenodo.5913229","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Insektenkunde Systematik und Artenbestimmung","description":"These presentation slides (in German language) provide an introduction to insect identification and entomology.","@id":"https://doi.org/10.5281/zenodo.5913214","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}}]}
+{
+    "@context":"https://w3id.org/ro/crate/1.1/context",
+    "@graph":[
+        {
+            "@title":"AuBe Fragebogen für Schüler*innen",
+            "@type":"Publication",
+            "description":"This questionnaire was prepared for school pupils who are joining the AuBe project.",
+            "@id":"https://doi.org/10.5281/zenodo.5913622",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        },
+        {
+            "@id":"#reinhard",
+            "@type":"Person",
+            "name": "Reinhard"
+        },
+        {
+            "@title":"Stationenlernen: Artenschutz durch umweltverträgliche Beleuchtung",
+            "@type":"Publication",
+            "description":"This interactive informational worksheet is for use when visiting Lake Stechlin, an IGB research location where citizens can participate in research for the AuBe project. The AuBe project is a citizen science project that investigates the effect of street light design on the impact of light pollution on insect populations.",
+            "@id":"https://doi.org/10.5281/zenodo.5913613",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        },
+        {
+            "@title":"Bestimmungsschlüssel heimischer Insektenordnungen",
+            "@type":"Publication",
+            "description":"Worksheets for the identification of insects native to Germany provided as part of the AuBe project.",
+            "@id":"https://doi.org/10.5281/zenodo.5913287",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        },
+        {
+            "@title":"Aube on Actionbound",
+            "@type":"Publication",
+            "description":"Document of the listing of AuBe on Actionbound",
+            "@id":"https://doi.org/10.5281/zenodo.5913262",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        },
+        {
+            "@type":"Software",
+            "@title":"Application in ActionBound",
+            "description":"Application in ActionBound",
+            "@id":"https://en.actionbound.com/bound/Insects",
+            "license":{"@id":""},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":""}
+        },
+        {
+            "@title":"Artenschutz durch umweltverträgliche Beleuchtung (AuBe)",
+            "@type":"Presentation",
+            "description":"These slides provide an introduction to the AuBe project, as presented at the Bertha-von-Suttner Gymnasium.",
+            "@id":"https://doi.org/10.5281/zenodo.5913229",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        },
+        {
+            "@title":"Insektenkunde Systematik und Artenbestimmung",
+            "@type":"Presentation",
+            "description":"These presentation slides (in German language) provide an introduction to insect identification and entomology.",
+            "@id":"https://doi.org/10.5281/zenodo.5913214",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"#reinhard"}
+        }
+    ]
+}
