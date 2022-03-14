@@ -1,1 +1,60 @@
-{"@context":"https://w3id.org/ro/crate/1.1/context","@graph":[{"@title":"AZOTEA, monitoring the night sky during and after isolation","description":"This booklet presents AZOTEA, a citizen science project that aims to monitor the brightness and color of the night sky using photographic cameras to evaluate variations in light pollution that happened during and after the exceptional period of self-isolation.","@id":"https://doi.org/10.5281/zenodo.4680191","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Dataset","@title":"AZOTEA Dataset","description":"AZOTEA Dataset","@id":"https://doi.org/10.5281/zenodo.5746923","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@type":"Software","@title":"AZOTEA Client","description":"Sky background image reduction tool for the AZOTEA project","@id":"https://github.com/actionprojecteu/azotea-client","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}},{"@title":"Website","description":"Website","@id":"https://guaix.ucm.es/azoteaproject","license":{"@id":""},"publisher":{"@id":""},"funder":{"@id":""},"author":{"@id":""}}]}
+{
+    "@context":"https://w3id.org/ro/crate/1.1/context",
+    "@graph":[
+        {
+            "@title":"AZOTEA, monitoring the night sky during and after isolation",
+            "@type":"Publication",
+            "description":"This booklet presents AZOTEA, a citizen science project that aims to monitor the brightness and color of the night sky using photographic cameras to evaluate variations in light pollution that happened during and after the exceptional period of self-isolation.",
+            "@id":"https://doi.org/10.5281/zenodo.4680191",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":[{"@id":"jzamorano"},{"@id":"lgarcia"}]
+        },
+        {
+            "@id":"#lgarcia",
+            "@type":"Person",
+            "name": "Lucía García"
+        },
+        {
+            "@id":"#jzamorano",
+            "@type":"Person",
+            "name": "Jaime Zamorano"
+        },
+        {
+            "@id":"#rgonzalez",
+            "@type":"Person",
+            "name": "Rafael González"
+        },
+        {
+            "@type":"Dataset",
+            "@title":"AZOTEA Dataset",
+            "description":"AZOTEA Dataset",
+            "@id":"https://doi.org/10.5281/zenodo.5746923",
+            "license":{"@id":"CC-BY-4.0"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":[{"@id":"jzamorano"},{"@id":"rgonzalez"}]
+        },
+        {
+            "@type":"Software",
+            "@title":"AZOTEA Client",
+            "description":"Sky background image reduction tool for the AZOTEA project",
+            "@id":"https://github.com/actionprojecteu/azotea-client",
+            "license":{"@id":"MIT"},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":"rgonzalez"}
+        },
+        {
+            "@title":"Website",
+            "@type":"Website",
+            "description":"Website",
+            "@id":"https://guaix.ucm.es/azoteaproject",
+            "license":{"@id":""},
+            "publisher":{"@id":""},
+            "funder":{"@id":""},
+            "author":{"@id":""}
+        }
+    ]
+}
